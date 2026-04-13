@@ -52,7 +52,7 @@ function initDB() {
           id: `abs_${uid}_${dateStr}`,
           userId: uid,
           tanggal: dateStr,
-          masuk: `07:${Math.floor(Math.random() * 15 + 30).toString().padStart(2, '0')}`,
+          masuk: `07:${Math.floor(Math.random() * 30 + 30).toString().padStart(2, '0')}`,
           istirahat: `12:00`,
           kembali: `13:0${Math.floor(Math.random() * 5)}`,
           pulang: `16:${Math.floor(Math.random() * 30 + 30).toString().padStart(2, '0')}`,
